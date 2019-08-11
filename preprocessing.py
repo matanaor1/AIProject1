@@ -13,7 +13,7 @@ def json_to_csv ():
     df.to_csv('business.csv', encoding='utf-8', index=False)
     df = pd.read_json('checkin.json', lines=True)
     df.to_csv('checkin.csv', encoding='utf-8', index=False)
-
+###C########
 
 def leave_only_restaurants_in_vegas ():
     df= pd.read_csv('business.csv', sep=',', header=0)
